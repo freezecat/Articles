@@ -1,0 +1,382 @@
+	body{
+		margin:0 auto;
+		width:100%;
+		font-family:Lovelo,sans-serif;
+	}
+	/*header*/
+	
+	#account:hover  #account_dropdown{
+		display:block;
+	}
+	#account_dropdown{
+		display:none;
+		width:200px;
+		height:165px;
+		background:white;
+	}
+	
+	#account_dropdown>ul{
+		list-style:none;
+	}
+		#account_dropdown>ul>li{
+		text-align:center;position:relative;
+	}
+		#account_dropdown>ul>li:nth-child(1){
+		left:-50px
+	}
+	#account_dropdown>ul>li:nth-child(2){
+		left:-41px
+	}
+	#account_dropdown>ul>li:nth-child(3){
+		left:-47px
+	}
+	#account_dropdown>ul>li:nth-child(4){
+		left:-32px
+	}
+	#search{
+		float:left;
+		width:28%;
+		 height:70px;
+		
+
+	}
+	#search_post{
+		background:#333;border:none;
+	}
+	.icon_search
+	{
+		font-size:2rem;
+		color:white;
+		position:relative;
+		top:5px;
+		left:5px;
+		cursor:pointer;
+	}
+	
+	// box-decoration-break
+	//https://css-tricks.com/design-considerations-text-images/
+	//mix-blend-mode: darken;
+	//background-clip en associant color transparent! pour text couleur fond image
+	#res{
+		display:none;
+		width:254px;
+		height:150px;
+		background:white;
+		position:relative;
+		top:10px;
+		right:141px;
+		float:right;
+		overflow-y:scroll;
+	}
+	#result
+	{
+		display:none;
+		width:254px;height:150px;
+		background:#fff;
+		position:relative;
+		top:10px;
+		left:69%;
+		overflow-y:scroll;
+	}
+	.icon-search{
+		font-size:2rem;
+		color:white;
+		cursor:pointer;
+		position:relative;
+		top:3px;
+	}
+	#menu_logo
+	{
+		display:none;
+	}
+    #logo{
+		position:relative;
+		top:20px;
+	}
+	#logo_img{
+		float:left;width:30%;position:relative;top:-30px;text-align:center;
+	
+	}
+	#logo_img > img{ 
+		width:130px;
+		height:130px;
+	}
+	#logo_txt{
+		position:relative;top:15px;float:left;width:70%;text-align:center;font-size:50px;font-weight:900;color:transparent;background:linear-gradient(-45deg, red , orange,yellow,green,blue);background-clip:text;font-family:Georgia;
+	}
+	
+	#header{
+		width:100%;
+		height:200px;
+		background:#AAF;
+		
+	}
+	#header_fixed{
+		width:100%;
+		height:80px;
+		background:#333;
+		position:fixed;
+		z-index:9999;
+	}
+	#header_mobile{
+		width:100%;
+		height:120px;
+		position:absolute;
+		background:rgba(0,0,100,0.4);
+		
+		top:80px;
+		
+	}
+	nav{
+		
+		width:100%;
+		height:80px;
+		
+	}
+	#nav_menu{
+		float:left;
+		width:68%;
+	    height:70px;
+		
+		
+	}
+	
+	
+	 #nav_menu>ul {
+	
+		
+		width:600px;
+		height:30px;
+		list-style:none;
+		
+		margin-left:20px;
+		
+		
+	}
+	#nav_menu>ul>li{
+		float:left;
+		width:144px;
+		height:40px;
+		background:#007700;
+		margin-left:3px;
+		margin-right:3px;
+		text-align:center;
+		line-height:40px;
+		border-radius:4px 4px;
+	    font-family:Arial;
+		font-weight:700;
+		cursor:pointer;
+		
+	}
+	#nav_menu>ul>li:hover
+	{
+		background:#00BB00;
+		
+	}
+	#nav_menu>ul>li>a{
+		text-decoration:none;
+		color:white;
+		display:block;
+	}
+	input[type="text"]
+	{
+		width:250px;
+		height:30px;
+		position:relative;
+		margin-top:1rem;
+		margin-left:1rem;
+	}
+	/*fin header*/
+	#container{
+		width:100%;
+		height:1400px;
+		
+	}
+	/* section1 */
+	#container>section:first-child
+	{
+		width:100%;
+		height:700px;
+		
+		
+	}
+	#articles{
+		float:left;
+		width:90%;
+		height:700px;
+		background-image:url("https://images.freeimages.com/images/large-previews/ec6/wood-1-1463227.jpg");
+		background-size:cover;
+	}
+	#sidebar{
+		float:left;
+		width:10%;
+		height:700px;
+		background:pink;
+	}
+		#cards_container
+	{
+		width:69.5%;height:550px;border-right:1px solid grey;float:left;
+	}
+	
+	#cards_pics_container
+	{
+		width:29.5%;height:550px;float:left;
+	}
+	.cards
+	{
+		width:450px;
+		height:300px;
+		border:1px solid black;
+		position:relative;
+		border-radius:15px 15px 15px 15px;
+		cursor:pointer;
+	}
+	.cards:nth-child(1)
+	{top:75px;left:100px;z-index:1000;}
+	.cards:nth-child(2)
+	{top:-185px;left:160px;z-index:500;}
+	.cards:nth-child(3)
+	{top:-445px;left:220px;z-index:0;}
+	
+	.cards>img
+	{
+		border-radius:15px 15px 15px 15px;
+	width:450px;
+	height:300px;
+	}
+	 .cards_pics{
+		 width: 160px;
+		 height:120px;
+		 height:120px;
+		 cursor:pointer;
+		 margin:45px auto;
+	 }
+	 .cards_pics_border{
+		 width:150px;
+		 height:110px;
+		 
+		 position:relative;
+		 top:5px;
+		 left:5px;
+	 }
+	 /* fin section1 */
+	 /* section2 */
+	#container>section:nth-child(2)
+	{
+		
+		clear:both;
+		width:90%;
+		margin-left:5%;
+		margin-top:30px;
+		height:700px;
+		background:#eeeeee;
+		
+	}
+	
+	.pics{
+		
+		width:400px;
+		height:250px;
+		float:left;
+		margin-left:100px;
+		margin-top: 50px;
+		border:1px solid black;
+		overflow:hidden;
+	}
+	.pics_txt
+	{
+		position:relative;
+		text-align:center;
+		color:#fff;
+		top:-180px;
+		font-size:24px;
+	}
+	.bande{
+		width:100%;
+		height:50px;
+		background:rgba(0,0,0,0.7);
+		position:relative;
+		top:-129px;
+		
+	}
+	.stuffs
+	{
+		width:80%;
+		height:30px;
+		
+		position:relative;
+		top:10px;
+		left:10%;
+		
+	}
+	.icon-eye-open
+	{font-size:2rem;position:relative;top:-3px;left:10px;color:#ffffff}
+	.icon-eye-open > span
+	{color:#ffffff;}
+	.icon-heart
+	{font-size:1.6rem;position:relative;top:-5px;left:40px;color:#ffffff;}
+	.icon-heart > span 
+	{font-size:2rem;position:relative;top:1px;color:#ffffff}
+	meter
+	{width:135px;height:16px;border:1px solid black;position:relative;top:-9px;left:75px;background:#FFFFFF;}
+	#avg_vote
+	{
+		color:white;position:relative;top:-58px;
+		background:#f00;padding:2px 7px;font-size:12px;
+	}
+	#triangle
+	{position:relative;top:-57px;width:0;  height: 0;  border-left: 7px solid transparent; border-right: 7px solid transparent; border-top: 7px solid #f00;}
+	/* fin section2 */
+	#footer{
+		width:100%;
+		height:20rem;
+		background:#444;
+		color:white;
+		
+	}
+	
+	/* footer */
+    .row{
+		width:100%;
+		height:15.5rem;
+		border:1px solid white;
+	}
+	.row>.colspan_3{
+		float:left;
+		width:21%;
+		margin-left:2%;
+		margin-right:2%;
+		color:#fff;
+		height:13rem;
+		text-align:center;
+	
+		
+	}
+	.footer_titles{
+		
+		letter-spacing:2px;
+		color:#55AADD;
+	}
+	#footer_signature
+	{
+		width:100%;height:3.5rem;background:#000;color:#fff;
+	}
+	#footer_signature > p {
+		position:relative;top:1.3rem;left:20px;
+	}
+	#archive_box
+	{
+      
+      width:200px;
+	  height:100px;
+	  background:#fff;
+	  overflow-y:scroll;
+	}
+	#subscribe_btn
+	{
+		border:none;padding:7px 20px;background:rgba(255,255,255,0.3);position:relative;top:10px;color:#fff;cursor:pointer;letter-spacing:2px;
+	}
+	/*fin footer*/
+	
+
+	

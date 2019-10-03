@@ -1,0 +1,165 @@
+@media screen and (max-width: 1200px)
+{
+	#nav_menu{
+		width:100%;
+	    height:70px;
+		
+		
+	}
+	
+	#search{
+		width:100%;
+		 height:70px;
+		 border:1px solid black;
+		position:relative;
+		top:10px;
+		background:grey;
+
+	}
+	#search > div {
+		margin-left:33%;
+	}
+	#search_post{
+		background:grey;border:none;
+	}
+	#result
+	{
+	display:none;
+		width:254px;height:150px;
+		background:#fff;
+		position:relative;
+		top:10px;
+		left:35%;
+		overflow-y:scroll;
+	}
+	 #nav_menu>ul {
+	
+		
+		width:100%;
+		height:30px;
+		list-style:none;
+		
+		margin-left:20px;
+		
+		
+	}
+	#nav_menu>ul>li{
+		float:left;
+		width:22%;
+		height:40px;
+		background:#007700;
+		margin-left:6px;
+		margin-right:6px;
+		text-align:center;
+		line-height:40px;
+		border-radius:4px 4px;
+	    font-family:Arial;
+		font-weight:700;
+		cursor:pointer;
+		
+	}
+	#header{
+		width:100%;
+		height:280px;
+		background:#AAF;
+		
+	}
+	#header_mobile{
+		width:100%;
+		height:200px;
+		position:absolute;
+		background:rgba(0,0,100,0.4);
+		
+		top:80px;
+		
+	}
+	#logo{
+		position:relative;
+		top:100px;
+	}
+	#logo_txt{
+		position:relative;left:-35px;top:25px;width:70%;font-size:35px;font-weight:900;color:transparent;background:linear-gradient(-45deg, red , orange,yellow,green,blue);background-clip:text;font-family:Georgia;
+	    
+	}
+	/*fin header*/
+	#container{
+		width:100%;
+		height:1800px;
+		
+	}
+	/*section1*/
+	.cards
+	{
+		width:360px;
+		height:240px;
+		border:1px solid black;
+		position:relative;
+		border-radius:15px 15px 15px 15px;
+		cursor:pointer;
+	}
+	.cards:nth-child(1)
+	{top:175px;left:50px;z-index:1000;}
+	.cards:nth-child(2)
+	{top:-120px;left:80px;z-index:500;}
+	.cards:nth-child(3)
+	{top:-415px;left:120px;z-index:0;}
+	.cards>img
+	{
+		border-radius:15px 15px 15px 15px;
+	width:360px;
+	height:240px;
+	}
+	/* section2 */
+		#container>section:nth-child(2)
+	{
+		
+		clear:both;
+		width:90%;
+		margin-left:5%;
+		margin-top:30px;
+		height:1100px;
+		background:#eeeeee;
+		
+	}
+	/* fin section2*/
+	/*footer*/
+		#footer{
+		width:100%;
+		height:40rem;
+		background:#444;
+		color:white;
+		
+	}
+	   .row{
+		width:100%;
+		height:34rem;
+		border:1px solid white;
+	}
+	.row>.colspan_3{
+		float:left;
+		width:44%;
+		margin-top:3%;
+		margin-left:2%;
+		margin-right:2%;
+		color:#fff;
+		height:13rem;
+		text-align:center;
+		border:1px solid white;
+		
+	}
+		#archive_box
+	{
+      
+      width:200px;
+	  height:80px;
+	  position:relative;
+	  left:20%;
+	  background:#fff;
+	  overflow-y:scroll;
+	}
+	#subscribe_btn
+	{
+	border:none;padding:7px 20px;background:rgba(255,255,255,0.3);position:relative;top:0px;color:#fff;cursor:pointer;letter-spacing:2px;
+	}
+	
+}
